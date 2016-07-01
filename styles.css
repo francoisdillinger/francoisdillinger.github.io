@@ -43,6 +43,6 @@ h1{
 .yellow{
     color: yellow;
 }
-.comments{
-    margin: 0 auto;
+#comments{
+    text-align: center;
 }
