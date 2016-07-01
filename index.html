@@ -6,9 +6,20 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    
        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic|Indie+Flower|Shadows+Into+Light' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="animate.css">
     </head>
     
     <body>
+        <div id="fb-root"></div>
+        <script>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
         <nav class="navbar navbar-inverse navbar-default navbar-static-top">
         <div class="container row">
             <h1 class="col-md-8">Finding Francois</h1>
@@ -20,10 +31,14 @@
         </div>
         </nav>
         <div class="body" >
-            <h1>Uhoh....this page is under construction!</h1>
+            <h1 class="tlt">Uhoh....this page is under construction!</h1>
         </div>
-        
+         <div>
+             <div class="fb-comments" data-href="https://www.findingfrancois.com" data-width="500" data-numposts="5"></div>
+         </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="jquery.lettering.js"></script>
+    <script src="jquery.textillate.js"></script>
     <script src="scripts.js"></script>
 </html>
