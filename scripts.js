@@ -5,3 +5,7 @@
 $('h1').on('click', function(){
     $('h1').toggleClass('yellow');
 })
+
+$(function () {
+    $('.tlt').textillate();
+})
