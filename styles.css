@@ -1,16 +1,24 @@
-body{
-    margin: 0;
-}
-/*.body{
-    background-image: url('images/woods.png');
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
-    background-color: black;
-    height: 500px;
-    margin: 0 auto;
+.body{
+    background-image: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(255, 255, 255, 0)), url('images/bet.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: cover, cover, cover;
+    background-position: bottom right, left, right;
+    background: -moz-linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), -webkit-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), -ms-linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+    /*background-color: black;*/
+    height: 800px;
+    width: 100%;
+    /*margin: 0 auto;*/
     
-}*/
+    /*z-index: 1;*/
+}
+.bar{
+    height: 50px;
+    background-color: #222;
+    border: solid, black, 1px;
+}
+.title{
+    margin-top: 5em;
+}
 .container h1{
     text-align: left;
     display: inline-block;
@@ -45,4 +53,7 @@ h1{
 }
 #comments{
     text-align: center;
+}
+.fb-comments{
+    width: 80%;
 }
